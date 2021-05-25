@@ -1,0 +1,902 @@
+[
+  {
+    "estagio_1_eth": "150960123160000000000",
+    "estagio_1_execucao_resultado": 1701,
+    "estagio_2_eth": "150960123160000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150939458720000000000",
+    "estagio_3_execucao_resultado": 1702,
+    "estagio_4_eth": "150939458720000000000"
+  },
+  {
+    "estagio_1_eth": "150939458720000000000",
+    "estagio_1_execucao_resultado": 1702,
+    "estagio_2_eth": "150939458720000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150918783140000000000",
+    "estagio_3_execucao_resultado": 1703,
+    "estagio_4_eth": "150918783140000000000"
+  },
+  {
+    "estagio_1_eth": "150918783140000000000",
+    "estagio_1_execucao_resultado": 1703,
+    "estagio_2_eth": "150918783140000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150898096700000000000",
+    "estagio_3_execucao_resultado": 1704,
+    "estagio_4_eth": "150898096700000000000"
+  },
+  {
+    "estagio_1_eth": "150898096700000000000",
+    "estagio_1_execucao_resultado": 1704,
+    "estagio_2_eth": "150898096700000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150877399120000000000",
+    "estagio_3_execucao_resultado": 1705,
+    "estagio_4_eth": "150877399120000000000"
+  },
+  {
+    "estagio_1_eth": "150877399120000000000",
+    "estagio_1_execucao_resultado": 1705,
+    "estagio_2_eth": "150877399120000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150856690680000000000",
+    "estagio_3_execucao_resultado": 1706,
+    "estagio_4_eth": "150856690680000000000"
+  },
+  {
+    "estagio_1_eth": "150856690680000000000",
+    "estagio_1_execucao_resultado": 1706,
+    "estagio_2_eth": "150856690680000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150835971100000000000",
+    "estagio_3_execucao_resultado": 1707,
+    "estagio_4_eth": "150835971100000000000"
+  },
+  {
+    "estagio_1_eth": "150835971100000000000",
+    "estagio_1_execucao_resultado": 1707,
+    "estagio_2_eth": "150835971100000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150815240660000000000",
+    "estagio_3_execucao_resultado": 1708,
+    "estagio_4_eth": "150815240660000000000"
+  },
+  {
+    "estagio_1_eth": "150815240660000000000",
+    "estagio_1_execucao_resultado": 1708,
+    "estagio_2_eth": "150815240660000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150794499080000000000",
+    "estagio_3_execucao_resultado": 1709,
+    "estagio_4_eth": "150794499080000000000"
+  },
+  {
+    "estagio_1_eth": "150794499080000000000",
+    "estagio_1_execucao_resultado": 1709,
+    "estagio_2_eth": "150794499080000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150773746640000000000",
+    "estagio_3_execucao_resultado": 1710,
+    "estagio_4_eth": "150773746640000000000"
+  },
+  {
+    "estagio_1_eth": "150773746640000000000",
+    "estagio_1_execucao_resultado": 1710,
+    "estagio_2_eth": "150773746640000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150752983060000000000",
+    "estagio_3_execucao_resultado": 1711,
+    "estagio_4_eth": "150752983060000000000"
+  },
+  {
+    "estagio_1_eth": "150752983060000000000",
+    "estagio_1_execucao_resultado": 1711,
+    "estagio_2_eth": "150752983060000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150732208620000000000",
+    "estagio_3_execucao_resultado": 1712,
+    "estagio_4_eth": "150732208620000000000"
+  },
+  {
+    "estagio_1_eth": "150732208620000000000",
+    "estagio_1_execucao_resultado": 1712,
+    "estagio_2_eth": "150732208620000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150711423040000000000",
+    "estagio_3_execucao_resultado": 1713,
+    "estagio_4_eth": "150711423040000000000"
+  },
+  {
+    "estagio_1_eth": "150711423040000000000",
+    "estagio_1_execucao_resultado": 1713,
+    "estagio_2_eth": "150711423040000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150690626600000000000",
+    "estagio_3_execucao_resultado": 1714,
+    "estagio_4_eth": "150690626600000000000"
+  },
+  {
+    "estagio_1_eth": "150690626600000000000",
+    "estagio_1_execucao_resultado": 1714,
+    "estagio_2_eth": "150690626600000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150669819020000000000",
+    "estagio_3_execucao_resultado": 1715,
+    "estagio_4_eth": "150669819020000000000"
+  },
+  {
+    "estagio_1_eth": "150669819020000000000",
+    "estagio_1_execucao_resultado": 1715,
+    "estagio_2_eth": "150669819020000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150649000580000000000",
+    "estagio_3_execucao_resultado": 1716,
+    "estagio_4_eth": "150649000580000000000"
+  },
+  {
+    "estagio_1_eth": "150649000580000000000",
+    "estagio_1_execucao_resultado": 1716,
+    "estagio_2_eth": "150649000580000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150628171000000000000",
+    "estagio_3_execucao_resultado": 1717,
+    "estagio_4_eth": "150628171000000000000"
+  },
+  {
+    "estagio_1_eth": "150628171000000000000",
+    "estagio_1_execucao_resultado": 1717,
+    "estagio_2_eth": "150628171000000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150607330560000000000",
+    "estagio_3_execucao_resultado": 1718,
+    "estagio_4_eth": "150607330560000000000"
+  },
+  {
+    "estagio_1_eth": "150607330560000000000",
+    "estagio_1_execucao_resultado": 1718,
+    "estagio_2_eth": "150607330560000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150586478980000000000",
+    "estagio_3_execucao_resultado": 1719,
+    "estagio_4_eth": "150586478980000000000"
+  },
+  {
+    "estagio_1_eth": "150586478980000000000",
+    "estagio_1_execucao_resultado": 1719,
+    "estagio_2_eth": "150586478980000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150565616540000000000",
+    "estagio_3_execucao_resultado": 1720,
+    "estagio_4_eth": "150565616540000000000"
+  },
+  {
+    "estagio_1_eth": "150565616540000000000",
+    "estagio_1_execucao_resultado": 1720,
+    "estagio_2_eth": "150565616540000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150544742960000000000",
+    "estagio_3_execucao_resultado": 1721,
+    "estagio_4_eth": "150544742960000000000"
+  },
+  {
+    "estagio_1_eth": "150544742960000000000",
+    "estagio_1_execucao_resultado": 1721,
+    "estagio_2_eth": "150544742960000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150523858520000000000",
+    "estagio_3_execucao_resultado": 1722,
+    "estagio_4_eth": "150523858520000000000"
+  },
+  {
+    "estagio_1_eth": "150523858520000000000",
+    "estagio_1_execucao_resultado": 1722,
+    "estagio_2_eth": "150523858520000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150502962940000000000",
+    "estagio_3_execucao_resultado": 1723,
+    "estagio_4_eth": "150502962940000000000"
+  },
+  {
+    "estagio_1_eth": "150502962940000000000",
+    "estagio_1_execucao_resultado": 1723,
+    "estagio_2_eth": "150502962940000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150482056500000000000",
+    "estagio_3_execucao_resultado": 1724,
+    "estagio_4_eth": "150482056500000000000"
+  },
+  {
+    "estagio_1_eth": "150482056500000000000",
+    "estagio_1_execucao_resultado": 1724,
+    "estagio_2_eth": "150482056500000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150461138920000000000",
+    "estagio_3_execucao_resultado": 1725,
+    "estagio_4_eth": "150461138920000000000"
+  },
+  {
+    "estagio_1_eth": "150461138920000000000",
+    "estagio_1_execucao_resultado": 1725,
+    "estagio_2_eth": "150461138920000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150440210480000000000",
+    "estagio_3_execucao_resultado": 1726,
+    "estagio_4_eth": "150440210480000000000"
+  },
+  {
+    "estagio_1_eth": "150440210480000000000",
+    "estagio_1_execucao_resultado": 1726,
+    "estagio_2_eth": "150440210480000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150419270900000000000",
+    "estagio_3_execucao_resultado": 1727,
+    "estagio_4_eth": "150419270900000000000"
+  },
+  {
+    "estagio_1_eth": "150419270900000000000",
+    "estagio_1_execucao_resultado": 1727,
+    "estagio_2_eth": "150419270900000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150398320460000000000",
+    "estagio_3_execucao_resultado": 1728,
+    "estagio_4_eth": "150398320460000000000"
+  },
+  {
+    "estagio_1_eth": "150398320460000000000",
+    "estagio_1_execucao_resultado": 1728,
+    "estagio_2_eth": "150398320460000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150377358880000000000",
+    "estagio_3_execucao_resultado": 1729,
+    "estagio_4_eth": "150377358880000000000"
+  },
+  {
+    "estagio_1_eth": "150377358880000000000",
+    "estagio_1_execucao_resultado": 1729,
+    "estagio_2_eth": "150377358880000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150356386440000000000",
+    "estagio_3_execucao_resultado": 1730,
+    "estagio_4_eth": "150356386440000000000"
+  },
+  {
+    "estagio_1_eth": "150356386440000000000",
+    "estagio_1_execucao_resultado": 1730,
+    "estagio_2_eth": "150356386440000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150335402860000000000",
+    "estagio_3_execucao_resultado": 1731,
+    "estagio_4_eth": "150335402860000000000"
+  },
+  {
+    "estagio_1_eth": "150335402860000000000",
+    "estagio_1_execucao_resultado": 1731,
+    "estagio_2_eth": "150335402860000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150314408420000000000",
+    "estagio_3_execucao_resultado": 1732,
+    "estagio_4_eth": "150314408420000000000"
+  },
+  {
+    "estagio_1_eth": "150314408420000000000",
+    "estagio_1_execucao_resultado": 1732,
+    "estagio_2_eth": "150314408420000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150293402840000000000",
+    "estagio_3_execucao_resultado": 1733,
+    "estagio_4_eth": "150293402840000000000"
+  },
+  {
+    "estagio_1_eth": "150293402840000000000",
+    "estagio_1_execucao_resultado": 1733,
+    "estagio_2_eth": "150293402840000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150272386400000000000",
+    "estagio_3_execucao_resultado": 1734,
+    "estagio_4_eth": "150272386400000000000"
+  },
+  {
+    "estagio_1_eth": "150272386400000000000",
+    "estagio_1_execucao_resultado": 1734,
+    "estagio_2_eth": "150272386400000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150251358820000000000",
+    "estagio_3_execucao_resultado": 1735,
+    "estagio_4_eth": "150251358820000000000"
+  },
+  {
+    "estagio_1_eth": "150251358820000000000",
+    "estagio_1_execucao_resultado": 1735,
+    "estagio_2_eth": "150251358820000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150230320380000000000",
+    "estagio_3_execucao_resultado": 1736,
+    "estagio_4_eth": "150230320380000000000"
+  },
+  {
+    "estagio_1_eth": "150230320380000000000",
+    "estagio_1_execucao_resultado": 1736,
+    "estagio_2_eth": "150230320380000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150209270800000000000",
+    "estagio_3_execucao_resultado": 1737,
+    "estagio_4_eth": "150209270800000000000"
+  },
+  {
+    "estagio_1_eth": "150209270800000000000",
+    "estagio_1_execucao_resultado": 1737,
+    "estagio_2_eth": "150209270800000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150188210360000000000",
+    "estagio_3_execucao_resultado": 1738,
+    "estagio_4_eth": "150188210360000000000"
+  },
+  {
+    "estagio_1_eth": "150188210360000000000",
+    "estagio_1_execucao_resultado": 1738,
+    "estagio_2_eth": "150188210360000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150167138780000000000",
+    "estagio_3_execucao_resultado": 1739,
+    "estagio_4_eth": "150167138780000000000"
+  },
+  {
+    "estagio_1_eth": "150167138780000000000",
+    "estagio_1_execucao_resultado": 1739,
+    "estagio_2_eth": "150167138780000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150146056340000000000",
+    "estagio_3_execucao_resultado": 1740,
+    "estagio_4_eth": "150146056340000000000"
+  },
+  {
+    "estagio_1_eth": "150146056340000000000",
+    "estagio_1_execucao_resultado": 1740,
+    "estagio_2_eth": "150146056340000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150124962760000000000",
+    "estagio_3_execucao_resultado": 1741,
+    "estagio_4_eth": "150124962760000000000"
+  },
+  {
+    "estagio_1_eth": "150124962760000000000",
+    "estagio_1_execucao_resultado": 1741,
+    "estagio_2_eth": "150124962760000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150103858320000000000",
+    "estagio_3_execucao_resultado": 1742,
+    "estagio_4_eth": "150103858320000000000"
+  },
+  {
+    "estagio_1_eth": "150103858320000000000",
+    "estagio_1_execucao_resultado": 1742,
+    "estagio_2_eth": "150103858320000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150082742740000000000",
+    "estagio_3_execucao_resultado": 1743,
+    "estagio_4_eth": "150082742740000000000"
+  },
+  {
+    "estagio_1_eth": "150082742740000000000",
+    "estagio_1_execucao_resultado": 1743,
+    "estagio_2_eth": "150082742740000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150061616300000000000",
+    "estagio_3_execucao_resultado": 1744,
+    "estagio_4_eth": "150061616300000000000"
+  },
+  {
+    "estagio_1_eth": "150061616300000000000",
+    "estagio_1_execucao_resultado": 1744,
+    "estagio_2_eth": "150061616300000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150040478720000000000",
+    "estagio_3_execucao_resultado": 1745,
+    "estagio_4_eth": "150040478720000000000"
+  },
+  {
+    "estagio_1_eth": "150040478720000000000",
+    "estagio_1_execucao_resultado": 1745,
+    "estagio_2_eth": "150040478720000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "150019330280000000000",
+    "estagio_3_execucao_resultado": 1746,
+    "estagio_4_eth": "150019330280000000000"
+  },
+  {
+    "estagio_1_eth": "150019330280000000000",
+    "estagio_1_execucao_resultado": 1746,
+    "estagio_2_eth": "150019330280000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149998170700000000000",
+    "estagio_3_execucao_resultado": 1747,
+    "estagio_4_eth": "149998170700000000000"
+  },
+  {
+    "estagio_1_eth": "149998170700000000000",
+    "estagio_1_execucao_resultado": 1747,
+    "estagio_2_eth": "149998170700000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149977000260000000000",
+    "estagio_3_execucao_resultado": 1748,
+    "estagio_4_eth": "149977000260000000000"
+  },
+  {
+    "estagio_1_eth": "149977000260000000000",
+    "estagio_1_execucao_resultado": 1748,
+    "estagio_2_eth": "149977000260000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149955818680000000000",
+    "estagio_3_execucao_resultado": 1749,
+    "estagio_4_eth": "149955818680000000000"
+  },
+  {
+    "estagio_1_eth": "149955818680000000000",
+    "estagio_1_execucao_resultado": 1749,
+    "estagio_2_eth": "149955818680000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149934626240000000000",
+    "estagio_3_execucao_resultado": 1750,
+    "estagio_4_eth": "149934626240000000000"
+  },
+  {
+    "estagio_1_eth": "149934626240000000000",
+    "estagio_1_execucao_resultado": 1750,
+    "estagio_2_eth": "149934626240000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149913422660000000000",
+    "estagio_3_execucao_resultado": 1751,
+    "estagio_4_eth": "149913422660000000000"
+  },
+  {
+    "estagio_1_eth": "149913422660000000000",
+    "estagio_1_execucao_resultado": 1751,
+    "estagio_2_eth": "149913422660000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149892208220000000000",
+    "estagio_3_execucao_resultado": 1752,
+    "estagio_4_eth": "149892208220000000000"
+  },
+  {
+    "estagio_1_eth": "149892208220000000000",
+    "estagio_1_execucao_resultado": 1752,
+    "estagio_2_eth": "149892208220000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149870982640000000000",
+    "estagio_3_execucao_resultado": 1753,
+    "estagio_4_eth": "149870982640000000000"
+  },
+  {
+    "estagio_1_eth": "149870982640000000000",
+    "estagio_1_execucao_resultado": 1753,
+    "estagio_2_eth": "149870982640000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149849746200000000000",
+    "estagio_3_execucao_resultado": 1754,
+    "estagio_4_eth": "149849746200000000000"
+  },
+  {
+    "estagio_1_eth": "149849746200000000000",
+    "estagio_1_execucao_resultado": 1754,
+    "estagio_2_eth": "149849746200000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149828498620000000000",
+    "estagio_3_execucao_resultado": 1755,
+    "estagio_4_eth": "149828498620000000000"
+  },
+  {
+    "estagio_1_eth": "149828498620000000000",
+    "estagio_1_execucao_resultado": 1755,
+    "estagio_2_eth": "149828498620000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149807240180000000000",
+    "estagio_3_execucao_resultado": 1756,
+    "estagio_4_eth": "149807240180000000000"
+  },
+  {
+    "estagio_1_eth": "149807240180000000000",
+    "estagio_1_execucao_resultado": 1756,
+    "estagio_2_eth": "149807240180000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149785970600000000000",
+    "estagio_3_execucao_resultado": 1757,
+    "estagio_4_eth": "149785970600000000000"
+  },
+  {
+    "estagio_1_eth": "149785970600000000000",
+    "estagio_1_execucao_resultado": 1757,
+    "estagio_2_eth": "149785970600000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149764690160000000000",
+    "estagio_3_execucao_resultado": 1758,
+    "estagio_4_eth": "149764690160000000000"
+  },
+  {
+    "estagio_1_eth": "149764690160000000000",
+    "estagio_1_execucao_resultado": 1758,
+    "estagio_2_eth": "149764690160000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149743398580000000000",
+    "estagio_3_execucao_resultado": 1759,
+    "estagio_4_eth": "149743398580000000000"
+  },
+  {
+    "estagio_1_eth": "149743398580000000000",
+    "estagio_1_execucao_resultado": 1759,
+    "estagio_2_eth": "149743398580000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149722096140000000000",
+    "estagio_3_execucao_resultado": 1760,
+    "estagio_4_eth": "149722096140000000000"
+  },
+  {
+    "estagio_1_eth": "149722096140000000000",
+    "estagio_1_execucao_resultado": 1760,
+    "estagio_2_eth": "149722096140000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149700782560000000000",
+    "estagio_3_execucao_resultado": 1761,
+    "estagio_4_eth": "149700782560000000000"
+  },
+  {
+    "estagio_1_eth": "149700782560000000000",
+    "estagio_1_execucao_resultado": 1761,
+    "estagio_2_eth": "149700782560000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149679458120000000000",
+    "estagio_3_execucao_resultado": 1762,
+    "estagio_4_eth": "149679458120000000000"
+  },
+  {
+    "estagio_1_eth": "149679458120000000000",
+    "estagio_1_execucao_resultado": 1762,
+    "estagio_2_eth": "149679458120000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149658122540000000000",
+    "estagio_3_execucao_resultado": 1763,
+    "estagio_4_eth": "149658122540000000000"
+  },
+  {
+    "estagio_1_eth": "149658122540000000000",
+    "estagio_1_execucao_resultado": 1763,
+    "estagio_2_eth": "149658122540000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149636776100000000000",
+    "estagio_3_execucao_resultado": 1764,
+    "estagio_4_eth": "149636776100000000000"
+  },
+  {
+    "estagio_1_eth": "149636776100000000000",
+    "estagio_1_execucao_resultado": 1764,
+    "estagio_2_eth": "149636776100000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149615418520000000000",
+    "estagio_3_execucao_resultado": 1765,
+    "estagio_4_eth": "149615418520000000000"
+  },
+  {
+    "estagio_1_eth": "149615418520000000000",
+    "estagio_1_execucao_resultado": 1765,
+    "estagio_2_eth": "149615418520000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149594050080000000000",
+    "estagio_3_execucao_resultado": 1766,
+    "estagio_4_eth": "149594050080000000000"
+  },
+  {
+    "estagio_1_eth": "149594050080000000000",
+    "estagio_1_execucao_resultado": 1766,
+    "estagio_2_eth": "149594050080000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149572670500000000000",
+    "estagio_3_execucao_resultado": 1767,
+    "estagio_4_eth": "149572670500000000000"
+  },
+  {
+    "estagio_1_eth": "149572670500000000000",
+    "estagio_1_execucao_resultado": 1767,
+    "estagio_2_eth": "149572670500000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149551280060000000000",
+    "estagio_3_execucao_resultado": 1768,
+    "estagio_4_eth": "149551280060000000000"
+  },
+  {
+    "estagio_1_eth": "149551280060000000000",
+    "estagio_1_execucao_resultado": 1768,
+    "estagio_2_eth": "149551280060000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149529878480000000000",
+    "estagio_3_execucao_resultado": 1769,
+    "estagio_4_eth": "149529878480000000000"
+  },
+  {
+    "estagio_1_eth": "149529878480000000000",
+    "estagio_1_execucao_resultado": 1769,
+    "estagio_2_eth": "149529878480000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149508466040000000000",
+    "estagio_3_execucao_resultado": 1770,
+    "estagio_4_eth": "149508466040000000000"
+  },
+  {
+    "estagio_1_eth": "149508466040000000000",
+    "estagio_1_execucao_resultado": 1770,
+    "estagio_2_eth": "149508466040000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149487042460000000000",
+    "estagio_3_execucao_resultado": 1771,
+    "estagio_4_eth": "149487042460000000000"
+  },
+  {
+    "estagio_1_eth": "149487042460000000000",
+    "estagio_1_execucao_resultado": 1771,
+    "estagio_2_eth": "149487042460000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149465608020000000000",
+    "estagio_3_execucao_resultado": 1772,
+    "estagio_4_eth": "149465608020000000000"
+  },
+  {
+    "estagio_1_eth": "149465608020000000000",
+    "estagio_1_execucao_resultado": 1772,
+    "estagio_2_eth": "149465608020000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149444162440000000000",
+    "estagio_3_execucao_resultado": 1773,
+    "estagio_4_eth": "149444162440000000000"
+  },
+  {
+    "estagio_1_eth": "149444162440000000000",
+    "estagio_1_execucao_resultado": 1773,
+    "estagio_2_eth": "149444162440000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149422706000000000000",
+    "estagio_3_execucao_resultado": 1774,
+    "estagio_4_eth": "149422706000000000000"
+  },
+  {
+    "estagio_1_eth": "149422706000000000000",
+    "estagio_1_execucao_resultado": 1774,
+    "estagio_2_eth": "149422706000000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149401238420000000000",
+    "estagio_3_execucao_resultado": 1775,
+    "estagio_4_eth": "149401238420000000000"
+  },
+  {
+    "estagio_1_eth": "149401238420000000000",
+    "estagio_1_execucao_resultado": 1775,
+    "estagio_2_eth": "149401238420000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149379759980000000000",
+    "estagio_3_execucao_resultado": 1776,
+    "estagio_4_eth": "149379759980000000000"
+  },
+  {
+    "estagio_1_eth": "149379759980000000000",
+    "estagio_1_execucao_resultado": 1776,
+    "estagio_2_eth": "149379759980000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149358270400000000000",
+    "estagio_3_execucao_resultado": 1777,
+    "estagio_4_eth": "149358270400000000000"
+  },
+  {
+    "estagio_1_eth": "149358270400000000000",
+    "estagio_1_execucao_resultado": 1777,
+    "estagio_2_eth": "149358270400000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149336769960000000000",
+    "estagio_3_execucao_resultado": 1778,
+    "estagio_4_eth": "149336769960000000000"
+  },
+  {
+    "estagio_1_eth": "149336769960000000000",
+    "estagio_1_execucao_resultado": 1778,
+    "estagio_2_eth": "149336769960000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149315258380000000000",
+    "estagio_3_execucao_resultado": 1779,
+    "estagio_4_eth": "149315258380000000000"
+  },
+  {
+    "estagio_1_eth": "149315258380000000000",
+    "estagio_1_execucao_resultado": 1779,
+    "estagio_2_eth": "149315258380000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149293735940000000000",
+    "estagio_3_execucao_resultado": 1780,
+    "estagio_4_eth": "149293735940000000000"
+  },
+  {
+    "estagio_1_eth": "149293735940000000000",
+    "estagio_1_execucao_resultado": 1780,
+    "estagio_2_eth": "149293735940000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149272202360000000000",
+    "estagio_3_execucao_resultado": 1781,
+    "estagio_4_eth": "149272202360000000000"
+  },
+  {
+    "estagio_1_eth": "149272202360000000000",
+    "estagio_1_execucao_resultado": 1781,
+    "estagio_2_eth": "149272202360000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149250657920000000000",
+    "estagio_3_execucao_resultado": 1782,
+    "estagio_4_eth": "149250657920000000000"
+  },
+  {
+    "estagio_1_eth": "149250657920000000000",
+    "estagio_1_execucao_resultado": 1782,
+    "estagio_2_eth": "149250657920000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149229102340000000000",
+    "estagio_3_execucao_resultado": 1783,
+    "estagio_4_eth": "149229102340000000000"
+  },
+  {
+    "estagio_1_eth": "149229102340000000000",
+    "estagio_1_execucao_resultado": 1783,
+    "estagio_2_eth": "149229102340000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149207535900000000000",
+    "estagio_3_execucao_resultado": 1784,
+    "estagio_4_eth": "149207535900000000000"
+  },
+  {
+    "estagio_1_eth": "149207535900000000000",
+    "estagio_1_execucao_resultado": 1784,
+    "estagio_2_eth": "149207535900000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149185958320000000000",
+    "estagio_3_execucao_resultado": 1785,
+    "estagio_4_eth": "149185958320000000000"
+  },
+  {
+    "estagio_1_eth": "149185958320000000000",
+    "estagio_1_execucao_resultado": 1785,
+    "estagio_2_eth": "149185958320000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149164369880000000000",
+    "estagio_3_execucao_resultado": 1786,
+    "estagio_4_eth": "149164369880000000000"
+  },
+  {
+    "estagio_1_eth": "149164369880000000000",
+    "estagio_1_execucao_resultado": 1786,
+    "estagio_2_eth": "149164369880000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149142770300000000000",
+    "estagio_3_execucao_resultado": 1787,
+    "estagio_4_eth": "149142770300000000000"
+  },
+  {
+    "estagio_1_eth": "149142770300000000000",
+    "estagio_1_execucao_resultado": 1787,
+    "estagio_2_eth": "149142770300000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149121159860000000000",
+    "estagio_3_execucao_resultado": 1788,
+    "estagio_4_eth": "149121159860000000000"
+  },
+  {
+    "estagio_1_eth": "149121159860000000000",
+    "estagio_1_execucao_resultado": 1788,
+    "estagio_2_eth": "149121159860000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149099538280000000000",
+    "estagio_3_execucao_resultado": 1789,
+    "estagio_4_eth": "149099538280000000000"
+  },
+  {
+    "estagio_1_eth": "149099538280000000000",
+    "estagio_1_execucao_resultado": 1789,
+    "estagio_2_eth": "149099538280000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149077905840000000000",
+    "estagio_3_execucao_resultado": 1790,
+    "estagio_4_eth": "149077905840000000000"
+  },
+  {
+    "estagio_1_eth": "149077905840000000000",
+    "estagio_1_execucao_resultado": 1790,
+    "estagio_2_eth": "149077905840000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149056262260000000000",
+    "estagio_3_execucao_resultado": 1791,
+    "estagio_4_eth": "149056262260000000000"
+  },
+  {
+    "estagio_1_eth": "149056262260000000000",
+    "estagio_1_execucao_resultado": 1791,
+    "estagio_2_eth": "149056262260000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149034607820000000000",
+    "estagio_3_execucao_resultado": 1792,
+    "estagio_4_eth": "149034607820000000000"
+  },
+  {
+    "estagio_1_eth": "149034607820000000000",
+    "estagio_1_execucao_resultado": 1792,
+    "estagio_2_eth": "149034607820000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "149012942240000000000",
+    "estagio_3_execucao_resultado": 1793,
+    "estagio_4_eth": "149012942240000000000"
+  },
+  {
+    "estagio_1_eth": "149012942240000000000",
+    "estagio_1_execucao_resultado": 1793,
+    "estagio_2_eth": "149012942240000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "148991265800000000000",
+    "estagio_3_execucao_resultado": 1794,
+    "estagio_4_eth": "148991265800000000000"
+  },
+  {
+    "estagio_1_eth": "148991265800000000000",
+    "estagio_1_execucao_resultado": 1794,
+    "estagio_2_eth": "148991265800000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "148969578220000000000",
+    "estagio_3_execucao_resultado": 1795,
+    "estagio_4_eth": "148969578220000000000"
+  },
+  {
+    "estagio_1_eth": "148969578220000000000",
+    "estagio_1_execucao_resultado": 1795,
+    "estagio_2_eth": "148969578220000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "148947879780000000000",
+    "estagio_3_execucao_resultado": 1796,
+    "estagio_4_eth": "148947879780000000000"
+  },
+  {
+    "estagio_1_eth": "148947879780000000000",
+    "estagio_1_execucao_resultado": 1796,
+    "estagio_2_eth": "148947879780000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "148926170200000000000",
+    "estagio_3_execucao_resultado": 1797,
+    "estagio_4_eth": "148926170200000000000"
+  },
+  {
+    "estagio_1_eth": "148926170200000000000",
+    "estagio_1_execucao_resultado": 1797,
+    "estagio_2_eth": "148926170200000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "148904449760000000000",
+    "estagio_3_execucao_resultado": 1798,
+    "estagio_4_eth": "148904449760000000000"
+  },
+  {
+    "estagio_1_eth": "148904449760000000000",
+    "estagio_1_execucao_resultado": 1798,
+    "estagio_2_eth": "148904449760000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "148882718180000000000",
+    "estagio_3_execucao_resultado": 1799,
+    "estagio_4_eth": "148882718180000000000"
+  },
+  {
+    "estagio_1_eth": "148882718180000000000",
+    "estagio_1_execucao_resultado": 1799,
+    "estagio_2_eth": "148882718180000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "148860975740000000000",
+    "estagio_3_execucao_resultado": 1800,
+    "estagio_4_eth": "148860975740000000000"
+  },
+  {
+    "estagio_1_eth": "148860975740000000000",
+    "estagio_1_execucao_resultado": 1800,
+    "estagio_2_eth": "148860975740000000000",
+    "estagio_2_execucao_resultado": true,
+    "estagio_3_eth": "148839222160000000000",
+    "estagio_3_execucao_resultado": 1801,
+    "estagio_4_eth": "148839222160000000000"
+  }
+]

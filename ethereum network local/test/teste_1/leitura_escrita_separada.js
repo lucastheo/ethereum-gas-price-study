@@ -2,27 +2,26 @@ module.exports = async function(callback) {
     console.log("Inicio")
     
     try{
-        todoList = await artifacts.require("TodoList").deployed();  //captura o contrato
+        teste1_LeituraEscritaJunta = await artifacts.require("Teste1EscritaLeituraEscritaSeparada").deployed();  //captura o contrato
 
         accounts = await web3.eth.getAccounts()
         account = accounts[0]
         
         var i, j;
-        for( i = 0; i < 5000; i++ ){
+        for( i = 0; i < 25; i++ ){
             
             let resultados = Array()
-            for( j =0; j < 25000 ; j++){
-                if( j % 250 == 0){
+            for( j =0; j < 200 ; j++){
+                if( j % 25 == 0){
                     console_log("Valor de i " + i + " e j " + j )
                 }
                 resultados.push( await testeEscrevendo() )
             }
-            console.log( resultados )
 
-            write( "./teste_resultado/" + i , resultados );
+            write( "./teste_resultado/teste_1/leitura_escrita_separada/" + i + ".dat" , resultados );
         }
     }catch (error) {
-        console_log(error)
+        console.log(error)
     }
 
     console.log("Fim")
@@ -37,19 +36,26 @@ async function testeEscrevendo(){
     teste.estagio_1_execucao_resultado = await testeEscrevendoCalculandoTask()
     
     teste.estagio_2_eth = await getBalance()
-    teste.estagio_2_execucao_resultado = await testeEscrevendoAdicionandoElemento()
-    
+    teste.estagio_2_execucao_resultado = await testeCalculandoJ()
+
     teste.estagio_3_eth = await getBalance()
-    teste.estagio_3_execucao_resultado = await testeEscrevendoCalculandoTask()    
+    teste.estagio_3_execucao_resultado = await testeEscrevendoAdicionandoElemento3(teste.estagio_2_execucao_resultado)
+
+    teste.estagio_4_eth = await getBalance()
+    teste.estagio_5_execucao_resultado = await testeEscrevendoCalculandoTask()    
     
     teste.estagio_4_eth = await getBalance()
     return teste 
    
 }
+async function testeCalculandoJ(){
+    return await teste1_LeituraEscritaJunta.contJ()
+}
 
-async function testeEscrevendoAdicionandoElemento(){
+
+async function testeEscrevendoAdicionandoElemento3( j ){
     try{
-        await todoList.createTask("Teste 1")
+        await teste1_LeituraEscritaJunta.createTask3("Teste 1" , j )
     }catch(error){
         console.log(error)
         return false
@@ -58,13 +64,20 @@ async function testeEscrevendoAdicionandoElemento(){
 }
 
 async function testeEscrevendoCalculandoTask(){
-    taskCount = todoList.taskCount()
+    taskCount = await teste1_LeituraEscritaJunta.taskCount()
     return taskCount.toNumber()
 }
 
-/*
-    Loga a quantidade de ETH presente na conta
-*/
+
+async function testeCalculandoJ(){
+    var result;
+    var v = await teste1_LeituraEscritaJunta.contJ.call(
+        function(err, res){ 
+            result = res 
+        } 
+    )
+    return result
+}
 
 async function getBalance(){
     return web3.eth.getBalance(account) 
@@ -81,8 +94,8 @@ async function console_log( str ){
 
 async function write( path , json_result ){
     const fs = require('fs')
-
-    fs.writeFile( path, JSON.stringify(json_result, null , 2) , (err) => {
+    console.log(path)
+    fs.writeFile( path , JSON.stringify(json_result, null , 2) , (err) => {
         // In case of a error throw err.
         if (err) throw err;
     })

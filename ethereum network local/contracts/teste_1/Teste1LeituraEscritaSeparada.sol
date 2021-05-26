@@ -1,7 +1,7 @@
 
 pragma solidity ^0.5.0;
 
-contract Sum {
+contract Teste1EscritaLeituraEscritaSeparada {
   uint public taskCount = 0;
   
   struct Task {
@@ -25,24 +25,10 @@ contract Sum {
   );
 
   constructor() public {
-    createTask("Check out dappuniversity.com");
+    createTask3("Check out dappuniversity.com" , 0);
   }
 
-  function createTask(string memory _content) public {
-    taskCount ++;
-
-    uint256 j = 0;
-    for (uint i=0; i<taskCount; i++) {
-      if(tasks[i].id % 2 == 0){
-        j +=1;
-      } 
-    }
-
-    tasks[taskCount] = Task(taskCount, _content, j , false );
-    emit TaskCreated(taskCount, _content, false);
-  }
-
-function createTask2(string memory _content , uint256 j) public {
+  function createTask3(string memory _content , uint256 j) public {
     taskCount ++;
 
     tasks[taskCount] = Task(taskCount, _content, j , false );
@@ -57,16 +43,7 @@ function createTask2(string memory _content , uint256 j) public {
         j +=1;
       } 
     }
-
     return j;
   }
-
-  function toggleCompleted(uint _id) public {
-    Task memory _task = tasks[_id];
-    _task.completed = !_task.completed;
-    tasks[_id] = _task;
-    emit TaskCompleted(_id, _task.completed);
-  }
-
 
 }

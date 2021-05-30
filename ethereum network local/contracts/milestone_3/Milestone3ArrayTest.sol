@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract ArrayTest {
+contract Milestone3Array {
     bool[] private array;
 
     function inserirElemento(bool flag) public {

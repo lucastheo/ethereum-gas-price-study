@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract MapTest {
+contract Milestone3Map {
     uint private size = 0;
 
     mapping(uint => bool) private map;

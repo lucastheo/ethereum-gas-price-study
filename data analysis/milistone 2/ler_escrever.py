@@ -8,7 +8,7 @@ def carrega_lista_domain():
     def carregar_arquivos():
         lista_dto_arquivo = list()
         for i in range(22):
-            arq = open(f"./data/ler_escrever/{i}.teste_para_escrever_ler.dat")
+            arq = open(f"../../results/milestone_2/ler_escrever/{i}.teste_para_escrever_ler.dat")
             lista_dto_arquivo += json.load(arq)
         return lista_dto_arquivo
 

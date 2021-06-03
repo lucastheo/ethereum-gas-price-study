@@ -1,0 +1,222 @@
+[
+  {
+    "estagio_1_eth": "98193574480000000000",
+    "estagio_1_resultado": true,
+    "estagio_2_eth": "98192910200000000000",
+    "estagio_2_resultado": "441",
+    "estagio_3_eth": "98192910200000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98192910200000000000",
+    "estagio_4_resultado": "230",
+    "estagio_5_eth": "98192910200000000000"
+  },
+  {
+    "estagio_1_eth": "98192910200000000000",
+    "estagio_1_resultado": false,
+    "estagio_2_eth": "98192330160000000000",
+    "estagio_2_resultado": "442",
+    "estagio_3_eth": "98192330160000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98192330160000000000",
+    "estagio_4_resultado": "230",
+    "estagio_5_eth": "98192330160000000000"
+  },
+  {
+    "estagio_1_eth": "98192330160000000000",
+    "estagio_1_resultado": true,
+    "estagio_2_eth": "98191665880000000000",
+    "estagio_2_resultado": "443",
+    "estagio_3_eth": "98191665880000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98191665880000000000",
+    "estagio_4_resultado": "231",
+    "estagio_5_eth": "98191665880000000000"
+  },
+  {
+    "estagio_1_eth": "98191665880000000000",
+    "estagio_1_resultado": true,
+    "estagio_2_eth": "98191001600000000000",
+    "estagio_2_resultado": "444",
+    "estagio_3_eth": "98191001600000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98191001600000000000",
+    "estagio_4_resultado": "232",
+    "estagio_5_eth": "98191001600000000000"
+  },
+  {
+    "estagio_1_eth": "98191001600000000000",
+    "estagio_1_resultado": false,
+    "estagio_2_eth": "98190421560000000000",
+    "estagio_2_resultado": "445",
+    "estagio_3_eth": "98190421560000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98190421560000000000",
+    "estagio_4_resultado": "232",
+    "estagio_5_eth": "98190421560000000000"
+  },
+  {
+    "estagio_1_eth": "98190421560000000000",
+    "estagio_1_resultado": true,
+    "estagio_2_eth": "98189757280000000000",
+    "estagio_2_resultado": "446",
+    "estagio_3_eth": "98189757280000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98189757280000000000",
+    "estagio_4_resultado": "233",
+    "estagio_5_eth": "98189757280000000000"
+  },
+  {
+    "estagio_1_eth": "98189757280000000000",
+    "estagio_1_resultado": false,
+    "estagio_2_eth": "98189177240000000000",
+    "estagio_2_resultado": "447",
+    "estagio_3_eth": "98189177240000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98189177240000000000",
+    "estagio_4_resultado": "233",
+    "estagio_5_eth": "98189177240000000000"
+  },
+  {
+    "estagio_1_eth": "98189177240000000000",
+    "estagio_1_resultado": false,
+    "estagio_2_eth": "98188597200000000000",
+    "estagio_2_resultado": "448",
+    "estagio_3_eth": "98188597200000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98188597200000000000",
+    "estagio_4_resultado": "233",
+    "estagio_5_eth": "98188597200000000000"
+  },
+  {
+    "estagio_1_eth": "98188597200000000000",
+    "estagio_1_resultado": true,
+    "estagio_2_eth": "98187633920000000000",
+    "estagio_2_resultado": "449",
+    "estagio_3_eth": "98187633920000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98187633920000000000",
+    "estagio_4_resultado": "234",
+    "estagio_5_eth": "98187633920000000000"
+  },
+  {
+    "estagio_1_eth": "98187633920000000000",
+    "estagio_1_resultado": true,
+    "estagio_2_eth": "98186969640000000000",
+    "estagio_2_resultado": "450",
+    "estagio_3_eth": "98186969640000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98186969640000000000",
+    "estagio_4_resultado": "235",
+    "estagio_5_eth": "98186969640000000000"
+  },
+  {
+    "estagio_1_eth": "98186969640000000000",
+    "estagio_1_resultado": false,
+    "estagio_2_eth": "98186389600000000000",
+    "estagio_2_resultado": "451",
+    "estagio_3_eth": "98186389600000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98186389600000000000",
+    "estagio_4_resultado": "235",
+    "estagio_5_eth": "98186389600000000000"
+  },
+  {
+    "estagio_1_eth": "98186389600000000000",
+    "estagio_1_resultado": true,
+    "estagio_2_eth": "98185725320000000000",
+    "estagio_2_resultado": "452",
+    "estagio_3_eth": "98185725320000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98185725320000000000",
+    "estagio_4_resultado": "236",
+    "estagio_5_eth": "98185725320000000000"
+  },
+  {
+    "estagio_1_eth": "98185725320000000000",
+    "estagio_1_resultado": false,
+    "estagio_2_eth": "98185145280000000000",
+    "estagio_2_resultado": "453",
+    "estagio_3_eth": "98185145280000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98185145280000000000",
+    "estagio_4_resultado": "236",
+    "estagio_5_eth": "98185145280000000000"
+  },
+  {
+    "estagio_1_eth": "98185145280000000000",
+    "estagio_1_resultado": true,
+    "estagio_2_eth": "98184481000000000000",
+    "estagio_2_resultado": "454",
+    "estagio_3_eth": "98184481000000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98184481000000000000",
+    "estagio_4_resultado": "237",
+    "estagio_5_eth": "98184481000000000000"
+  },
+  {
+    "estagio_1_eth": "98184481000000000000",
+    "estagio_1_resultado": false,
+    "estagio_2_eth": "98183900960000000000",
+    "estagio_2_resultado": "455",
+    "estagio_3_eth": "98183900960000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98183900960000000000",
+    "estagio_4_resultado": "237",
+    "estagio_5_eth": "98183900960000000000"
+  },
+  {
+    "estagio_1_eth": "98183900960000000000",
+    "estagio_1_resultado": true,
+    "estagio_2_eth": "98183236680000000000",
+    "estagio_2_resultado": "456",
+    "estagio_3_eth": "98183236680000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98183236680000000000",
+    "estagio_4_resultado": "238",
+    "estagio_5_eth": "98183236680000000000"
+  },
+  {
+    "estagio_1_eth": "98183236680000000000",
+    "estagio_1_resultado": false,
+    "estagio_2_eth": "98182656640000000000",
+    "estagio_2_resultado": "457",
+    "estagio_3_eth": "98182656640000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98182656640000000000",
+    "estagio_4_resultado": "238",
+    "estagio_5_eth": "98182656640000000000"
+  },
+  {
+    "estagio_1_eth": "98182656640000000000",
+    "estagio_1_resultado": false,
+    "estagio_2_eth": "98182076600000000000",
+    "estagio_2_resultado": "458",
+    "estagio_3_eth": "98182076600000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98182076600000000000",
+    "estagio_4_resultado": "238",
+    "estagio_5_eth": "98182076600000000000"
+  },
+  {
+    "estagio_1_eth": "98182076600000000000",
+    "estagio_1_resultado": false,
+    "estagio_2_eth": "98181496560000000000",
+    "estagio_2_resultado": "459",
+    "estagio_3_eth": "98181496560000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98181496560000000000",
+    "estagio_4_resultado": "238",
+    "estagio_5_eth": "98181496560000000000"
+  },
+  {
+    "estagio_1_eth": "98181496560000000000",
+    "estagio_1_resultado": false,
+    "estagio_2_eth": "98180916520000000000",
+    "estagio_2_resultado": "460",
+    "estagio_3_eth": "98180916520000000000",
+    "estagio_3_resultado": "0",
+    "estagio_4_eth": "98180916520000000000",
+    "estagio_4_resultado": "238",
+    "estagio_5_eth": "98180916520000000000"
+  }
+]

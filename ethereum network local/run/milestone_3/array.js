@@ -1,4 +1,5 @@
 module.exports = async function(callback) {
+    web3.eth.defaultAccount = ( await ( web3.eth.personal.getAccounts() ) )[0];
     console.log("Inicio")
     try{
         initBalance()
@@ -12,7 +13,7 @@ module.exports = async function(callback) {
                 resultados.push( await run() )
             }
             console.log("execução de numero: " + i )
-            write( "./resultados/milestone_3/array/" + i + ".dat" , resultados );
+            write( "../results/milestone_3/array/" + i + ".dat" , resultados );
         }
     }catch (error) {
         console.log(error)
@@ -54,28 +55,28 @@ async function write( path , json_result ){
 
 async function inserirElemento(){
     var flag = Math.random() > 0.5 ? true : false 
-    await _deploy_milestone_3_Array.inserirElemento(flag)
+    await _deploy_milestone_3_Array.inserirElemento(flag , {from: web3.eth.defaultAccount , gas: 11900000000000000 , gasPrice: 1 } )
     return flag
 }
 
 async function contarElemento(){
     var result;
     await _deploy_milestone_3_Array.contaElemento.call(
-        function(err, res){ result = res } 
+        {from: web3.eth.defaultAccount , gas: 900000000000000 , gasPrice: 1 } ,  function(err, res){ result = res } 
     )
     return result
 }
 
 async function percorre(){
     await _deploy_milestone_3_Array.percorre.call(
-        function(err, res){ result = res }
+        {from: web3.eth.defaultAccount , gas: 900000000000000 , gasPrice: 1 } ,  function(err, res){ result = res }
     )
     return result
 }
 
 async function percorreConta(){
     await _deploy_milestone_3_Array.percorreConta.call(
-        function(err, res){ result = res }
+        {from: web3.eth.defaultAccount , gas: 900000000000000 , gasPrice: 1 } , function(err, res){ result = res }
     )
     return result
 }

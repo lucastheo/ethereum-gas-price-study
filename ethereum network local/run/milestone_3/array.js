@@ -55,28 +55,28 @@ async function write( path , json_result ){
 
 async function inserirElemento(){
     var flag = Math.random() > 0.5 ? true : false 
-    await _deploy_milestone_3_Array.inserirElemento(flag , {from: web3.eth.defaultAccount , gas: 11900000000000000 , gasPrice: 1 } )
+    await _deploy_milestone_3_Array.inserirElemento(flag)
     return flag
 }
 
 async function contarElemento(){
     var result;
     await _deploy_milestone_3_Array.contaElemento.call(
-        {from: web3.eth.defaultAccount , gas: 900000000000000 , gasPrice: 1 } ,  function(err, res){ result = res } 
+        function(err, res){ result = res } 
     )
     return result
 }
 
 async function percorre(){
     await _deploy_milestone_3_Array.percorre.call(
-        {from: web3.eth.defaultAccount , gas: 900000000000000 , gasPrice: 1 } ,  function(err, res){ result = res }
+        function(err, res){ result = res }
     )
     return result
 }
 
 async function percorreConta(){
     await _deploy_milestone_3_Array.percorreConta.call(
-        {from: web3.eth.defaultAccount , gas: 900000000000000 , gasPrice: 1 } , function(err, res){ result = res }
+        function(err, res){ result = res }
     )
     return result
 }

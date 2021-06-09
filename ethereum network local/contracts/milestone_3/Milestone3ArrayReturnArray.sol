@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract Milestone3Array {
+contract Milestone3ArrayReturnArray {
     bool[] private array;
 
     function inserirElemento(bool flag) public {
@@ -19,7 +19,7 @@ contract Milestone3Array {
         return 0;
     }
 
-    function percorreConta() public  returns(uint){
+    function percorreConta() public  returns(uint[] memory ){
         uint i;
         uint j = 0;
         for( i = 0; i < array.length; i++ ){
@@ -27,7 +27,16 @@ contract Milestone3Array {
                 j += 1;
             }
         }
-        return j;
+
+        uint[] memory array_return = new uint[](j);
+        j = 0;
+        for( i=0; i < array.length; i++ ){
+            if( array[i] == true ){
+                j += 1;
+                array_return[j] = i;
+            }
+        }
+        return array_return;
     }
 
     function percorreContaList() public  returns(uint){
@@ -38,6 +47,7 @@ contract Milestone3Array {
                 j+=1;
             }
         }
+        
         return j;
     }
 

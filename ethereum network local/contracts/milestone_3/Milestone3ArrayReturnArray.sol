@@ -19,7 +19,7 @@ contract Milestone3ArrayReturnArray {
         return 0;
     }
 
-    function percorreConta() public  returns(uint[] memory ){
+    function percorreConta() public  returns(uint[] memory){
         uint i;
         uint j = 0;
         for( i = 0; i < array.length; i++ ){
@@ -30,10 +30,10 @@ contract Milestone3ArrayReturnArray {
 
         uint[] memory array_return = new uint[](j);
         j = 0;
-        for( i=0; i < array.length; i++ ){
+        for( i=0; i < array.length; i++ ){  
             if( array[i] == true ){
-                j += 1;
                 array_return[j] = i;
+                j += 1;
             }
         }
         return array_return;

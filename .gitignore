@@ -1,5 +1,5 @@
-ethereum network local/build/contracts/*.json
-ethereum network local/resultados/*/*/*.dat
+*/build/contracts/*.json
+*/resultados/*/*/*.dat
 results
 .vscode/*
 node_modules*

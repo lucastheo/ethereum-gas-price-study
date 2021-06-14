@@ -4,7 +4,7 @@ module.exports = async function(callback) {
     try{
         initBalance()
         
-        _deploy_milestone_3_ArrayReturnArray = await artifacts.require("Milestone3ArrayReturnArray").deployed();
+        _deploy_milestone_3_MapReturnArray = await artifacts.require("Milestone3MapReturnArray").deployed();
         
         var i, j;
         for( i = 0; i < 500; i++ ){
@@ -13,7 +13,7 @@ module.exports = async function(callback) {
                 resultados.push( await run() )
             }
             console.log("execução de numero: " + i )
-            write( "../results/milestone_3/array_return_array/" + i + ".dat" , resultados );
+            write( "../results/milestone_3/map_return_array/" + i + ".dat" , resultados );
         }
     }catch (error) {
         console.log(error)
@@ -55,27 +55,27 @@ async function write( path , json_result ){
 
 async function inserirElemento(){
     var flag = Math.random() > 0.5 ? true : false 
-    await _deploy_milestone_3_ArrayReturnArray.inserirElemento(flag)
+    await _deploy_milestone_3_MapReturnArray.inserirElemento(flag)
     return flag
 }
 
 async function contarElemento(){
     var result;
-    await _deploy_milestone_3_ArrayReturnArray.contaElemento.call(
+    await _deploy_milestone_3_MapReturnArray.contaElemento.call(
         function(err, res){ result = res } 
     )
     return result
 }
 
 async function percorre(){
-    await _deploy_milestone_3_ArrayReturnArray.percorre.call(
+    await _deploy_milestone_3_MapReturnArray.percorre.call(
         function(err, res){ result = res }
     )
     return result
 }
 
 async function percorreConta(){
-    await _deploy_milestone_3_ArrayReturnArray.percorreConta.call(
+    await _deploy_milestone_3_MapReturnArray.percorreConta.call(
         function(err, res){ 
             result = res
         }

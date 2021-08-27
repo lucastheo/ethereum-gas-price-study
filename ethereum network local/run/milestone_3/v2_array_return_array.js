@@ -39,9 +39,9 @@ async function run(){
     result.push( estagio_3 )
 
     var estagio_4 = {}
-    estagio_3.result = await percorreConta()
+    estagio_4.result = await percorreConta()
     estagio_4.function_name = "percorreConta"
-    result.push( estagio_3 )
+    result.push( estagio_4 )
 
     return result
 }

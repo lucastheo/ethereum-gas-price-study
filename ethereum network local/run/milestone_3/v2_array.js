@@ -39,9 +39,9 @@ async function run(){
     result.push( estagio_3 )
 
     var estagio_4 = {}
-    estagio_3.result = await percorreConta()
+    estagio_4.result = await percorreConta()
     estagio_4.function_name = "percorreConta"
-    result.push( estagio_3 )
+    result.push( estagio_4 )
 
     return result
 }
@@ -56,22 +56,19 @@ async function write( path , json_result ){
 
 async function inserirElemento(){
     var flag = Math.random() > 0.5 ? true : false 
-    await _deploy_milestone_3_Array.inserirElemento(flag)
-    return flag
+    return await _deploy_milestone_3_Array.inserirElemento(flag)
+    
 }
 
 async function contarElemento(){
     var result;
-    await _deploy_milestone_3_Array.contaElemento()
-    return null
+    return await _deploy_milestone_3_Array.contaElemento()
 }
 
 async function percorre(){
-    await _deploy_milestone_3_Array.percorre()
-    return null
+    return await _deploy_milestone_3_Array.percorre()
 }
 
 async function percorreConta(){
-    await _deploy_milestone_3_Array.percorreConta()
-    return null
+    return await _deploy_milestone_3_Array.percorreConta()
 }

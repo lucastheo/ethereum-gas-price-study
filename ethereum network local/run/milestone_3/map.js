@@ -12,7 +12,7 @@ module.exports = async function(callback) {
                 resultados.push( await run() )
             }
             console.log("execução de numero: " + i )
-            write( "../results/milestone_3/map/" + i + ".dat" , resultados );
+            write( "../results/milestone_3/crude/map/" + i + ".dat" , resultados );
         }
     }catch (error) {
         console.log(error)
@@ -60,22 +60,16 @@ async function inserirElemento(){
 
 async function contarElemento(){
     var result;
-    await _deploy_milestone_3_Map.contaElemento.call(
-        function(err, res){ result = res }
-    )
-    return result
+    await _deploy_milestone_3_Map.contaElemento()
+    return null
 }
 
 async function percorre(){
-    await _deploy_milestone_3_Map.percorre.call(
-        function(err, res){ result = res }
-    )
-    return result
+    await _deploy_milestone_3_Map.percorre()
+    return null
 }
 
 async function percorreConta(){
-    await _deploy_milestone_3_Map.percorreConta.call(
-        function(err, res){ result = res } , 
-    )
-    return result
+    await _deploy_milestone_3_Map.percorreConta()
+    return null
 }

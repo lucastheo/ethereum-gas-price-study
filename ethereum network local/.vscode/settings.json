@@ -1,0 +1,7 @@
+{
+    "solidity-va.mode.active": true,
+    "solidity-va.uml.actors.enable": true,
+    "solidity-va.whatsNew.disabled": false,
+    "solidity-va.diagnostics.cdili_json.import": true,
+    "solidity-va.preview.markdown": true
+}

@@ -13,7 +13,7 @@ module.exports = async function(callback) {
                 resultados.push( await run() )
             }
             console.log("execução de numero: " + i )
-            write( "../results/milestone_3/map_return_array/" + i + ".dat" , resultados );
+            write( "../results/milestone_3/crude/map_return_array/" + i + ".dat" , resultados );
         }
     }catch (error) {
         console.log(error)
@@ -61,24 +61,16 @@ async function inserirElemento(){
 
 async function contarElemento(){
     var result;
-    await _deploy_milestone_3_MapReturnArray.contaElemento.call(
-        function(err, res){ result = res } 
-    )
-    return result
+    await _deploy_milestone_3_MapReturnArray.contaElemento()
+    return null
 }
 
 async function percorre(){
-    await _deploy_milestone_3_MapReturnArray.percorre.call(
-        function(err, res){ result = res }
-    )
-    return result
+    await _deploy_milestone_3_MapReturnArray.percorre()
+    return null
 }
 
 async function percorreConta(){
-    await _deploy_milestone_3_MapReturnArray.percorreConta.call(
-        function(err, res){ 
-            result = res
-        }
-    )
-    return result
+    await _deploy_milestone_3_MapReturnArray.percorreConta()
+    return null
 }

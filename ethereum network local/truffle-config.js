@@ -7,11 +7,5 @@ module.exports = {
       network_id: "*", // Match any network id
       gas_price: 1
     }
-  },
-  solc: {
-    optimizer: {
-      enabled: true,
-      runs: 200
-    }
   }
 }

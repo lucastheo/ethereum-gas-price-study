@@ -34,10 +34,16 @@ def carrega_lista_domain(path,quantidade):
         domain['estagio_percorre_conta']['resultado'] = dto_arquivo['estagio_4_resultado']
 
         domain['estagio_final']['eth'] = int(dto_arquivo['estagio_5_eth'])
+        domain['identificacao'] = dto_arquivo['numero_linha']
 
         return domain
 
+    def define_number_for_line( lista_dto_arquivo):
+        for i in range(len(lista_dto_arquivo)):
+            lista_dto_arquivo[i]['numero_linha'] = i
+
     lista_dto_arquivo = carregar_arquivos()
+    define_number_for_line(lista_dto_arquivo)
     return mapping_lista_dto_arquivo_to_lista_domain(lista_dto_arquivo)
 
 def calcula_gasto_eth( lista_domain ):
@@ -66,10 +72,10 @@ def calcula_gasto_eth( lista_domain ):
     calcula_gasto_eth_sumarizacao( lista_domain )
     
 
-def captura_identificacao( lista_domain ):
-    def captura_identificacao( domain ):
-        domain['identificacao'] = domain['estagio_contar_elemento']['resultado']
-    pool.map( captura_identificacao , lista_domain)
+# def captura_identificacao( lista_domain ):
+#     def captura_identificacao( domain ):
+#         domain['identificacao'] = domain['estagio_contar_elemento']['resultado']
+#     pool.map( captura_identificacao , lista_domain)
 
 
 def sumariza_gasto_por_estagio( lista_domain ):
@@ -120,7 +126,7 @@ def gera_grafico_custo_processamento_execucao(lista_domain,path):
 
     def construir_grafico( x, y , path ):
         plt.clf()
-        plt.scatter(x,y)
+        plt.plot(x,y)
         plt.savefig(path)
 
     lista_gasto_total = map_gasto_total(lista_domain)

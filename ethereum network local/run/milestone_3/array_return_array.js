@@ -7,13 +7,13 @@ module.exports = async function(callback) {
         _deploy_milestone_3_ArrayReturnArray = await artifacts.require("Milestone3ArrayReturnArray").deployed();
         
         var i, j;
-        for( i = 0; i < 500; i++ ){
+        for( i = 0; i < 250; i++ ){
             let resultados = Array()
-            for( j = 0; j < 20; j++ ){
+            for( j = 0; j < 20 ; j++ ){
                 resultados.push( await run() )
             }
             console.log("execução de numero: " + i )
-            write( "../results/milestone_3/array_return_array/" + i + ".dat" , resultados );
+            write( "../results/milestone_3/crude/array_return_array/" + i + ".dat" , resultados );
         }
     }catch (error) {
         console.log(error)
@@ -60,25 +60,16 @@ async function inserirElemento(){
 }
 
 async function contarElemento(){
-    var result;
-    await _deploy_milestone_3_ArrayReturnArray.contaElemento.call(
-        function(err, res){ result = res } 
-    )
-    return result
+    await _deploy_milestone_3_ArrayReturnArray.contaElemento()
+    return null
 }
 
 async function percorre(){
-    await _deploy_milestone_3_ArrayReturnArray.percorre.call(
-        function(err, res){ result = res }
-    )
-    return result
+    await _deploy_milestone_3_ArrayReturnArray.percorre()   
+    return null
 }
 
 async function percorreConta(){
-    await _deploy_milestone_3_ArrayReturnArray.percorreConta.call(
-        function(err, res){ 
-            result = res
-        }
-    )
-    return result
+    await _deploy_milestone_3_ArrayReturnArray.percorreConta()
+    return null
 }

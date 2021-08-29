@@ -1,9 +1,8 @@
 module.exports = async function(callback) {
-    web3.eth.defaultAccount = ( await ( web3.eth.personal.getAccounts() ) )[0];
-    console.log("Inicio")
+
     try{
         
-        _deploy_milestone_3_Array = await artifacts.require("Milestone3Array").deployed();
+        _deploy_milestone_3_Map = await artifacts.require("Milestone3Map").deployed();
         
         var i, j;
         for( i = 0; i < 500; i++ ){
@@ -11,9 +10,8 @@ module.exports = async function(callback) {
             for( j = 0; j < 20; j++ ){
                 resultados.push( await run() )
             }
-            path = "../results/milestone_3/crude/v2_map_return_array/" + i + ".dat"
-            console.log("execução de numero: " + i + path )
-            write( path , resultados );
+            console.log("execução de numero: " + i )
+            write( "../results/milestone_3/crude/map/" + i + ".dat" , resultados );
         }
     }catch (error) {
         console.log(error)
@@ -57,19 +55,22 @@ async function write( path , json_result ){
 
 async function inserirElemento(){
     var flag = Math.random() > 0.5 ? true : false 
-    return await _deploy_milestone_3_Array.inserirElemento(flag)
-    
+    await _deploy_milestone_3_Map.inserirElemento(flag )
+    return flag
 }
 
 async function contarElemento(){
     var result;
-    return await _deploy_milestone_3_Array.contaElemento()
+    await _deploy_milestone_3_Map.contaElemento()
+    return null
 }
 
 async function percorre(){
-    return await _deploy_milestone_3_Array.percorre()
+    await _deploy_milestone_3_Map.percorre()
+    return null
 }
 
 async function percorreConta(){
-    return await _deploy_milestone_3_Array.percorreConta()
+    await _deploy_milestone_3_Map.percorreConta()
+    return null
 }

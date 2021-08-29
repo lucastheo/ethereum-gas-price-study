@@ -6,13 +6,14 @@ module.exports = async function(callback) {
         _deploy_milestone_3_ArrayReturnArray = await artifacts.require("Milestone3ArrayReturnArray").deployed();
         
         var i, j;
-        for( i = 0; i < 250; i++ ){
+        for( i = 0; i < 500; i++ ){
             let resultados = Array()
             for( j = 0; j < 20 ; j++ ){
                 resultados.push( await run() )
             }
-            console.log("execução de numero: " + "../results/milestone_3/crude/v2_array_return_array/" + i + ".dat" )
-            write( "../results/milestone_3/crude/v2_array_return_array/" + i + ".dat" , resultados );
+            path = "../results/milestone_3/crude/v2_map_return_array/" + i + ".dat"
+            console.log("execução de numero: " + i + path )
+            write( path , resultados );
         }
     }catch (error) {
         console.log(error)

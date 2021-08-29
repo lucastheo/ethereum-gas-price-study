@@ -2,8 +2,7 @@ module.exports = async function(callback) {
     web3.eth.defaultAccount = ( await ( web3.eth.personal.getAccounts() ) )[0];
     console.log("Inicio")
     try{
-        
-        _deploy_milestone_3_Array = await artifacts.require("Milestone3Array").deployed();
+        _deploy_milestone_3_MapReturnArray = await artifacts.require("Milestone3MapReturnArray").deployed();
         
         var i, j;
         for( i = 0; i < 500; i++ ){
@@ -57,19 +56,18 @@ async function write( path , json_result ){
 
 async function inserirElemento(){
     var flag = Math.random() > 0.5 ? true : false 
-    return await _deploy_milestone_3_Array.inserirElemento(flag)
-    
+    return await _deploy_milestone_3_MapReturnArray.inserirElemento(flag)
 }
 
 async function contarElemento(){
     var result;
-    return await _deploy_milestone_3_Array.contaElemento()
+    return await _deploy_milestone_3_MapReturnArray.contaElemento()
 }
 
 async function percorre(){
-    return await _deploy_milestone_3_Array.percorre()
+    return await _deploy_milestone_3_MapReturnArray.percorre()
 }
 
 async function percorreConta(){
-    return await _deploy_milestone_3_Array.percorreConta()
+    return await _deploy_milestone_3_MapReturnArray.percorreConta()
 }

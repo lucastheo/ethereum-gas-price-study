@@ -3,4 +3,4 @@
 results
 .vscode/*
 node_modules*
-data analysis/milistone_3/__pycache__/_estagios_5_data.cpython-39.pyc
+*.pyc

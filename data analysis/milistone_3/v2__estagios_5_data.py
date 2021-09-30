@@ -121,17 +121,26 @@ class Categorize:
 
 class Plot:
     @staticmethod
-    def graph_value(list_value , path):
+    def graph_value(list_value , path , title , xlabel , ylabel):
         plt.clf()
-        plt.plot(list_value)     
+        fig,ax = plt.subplots()
+        ax.plot(list_value)
+        ax.set_xlabel(xlabel)
+        ax.set_ylabel(ylabel)
+        #ax.set_title(title,fontsize=10)
         plt.savefig(path)
+        print("Grafico gerado:", path)
 
     @staticmethod
-    def graph_subplot(dataset_categorize , path):
+    def graph_subplot(dataset_categorize , path , title , xlabel , ylabel):
         fig, ax = plt.subplots()
+        ax.set_xlabel(xlabel)
+        ax.set_ylabel(ylabel)
+        ax.set_title(title)
         ax.stackplot(list(range(len(dataset_categorize))), dataset_categorize.values(),labels=dataset_categorize.keys())  
-        ax.legend(loc='upper left')
+        #ax.legend(loc='upper left')
         plt.savefig(path)
+        print("Grafico gerado:",path)
 
 
 class Mapping:

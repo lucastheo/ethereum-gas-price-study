@@ -3,9 +3,9 @@ pragma solidity ^0.5.0;
 contract Milestone3Map {
     uint private size = 0;
 
-    mapping(uint => bool) private map;
+    mapping(uint => int) private map;
 
-    function inserirElemento(bool flag) public {
+    function inserirElemento(int flag) public {
         map[size] = flag;
         size++;
     }
@@ -26,7 +26,7 @@ contract Milestone3Map {
         uint i;
         uint j = 0;
         for( i = 0; i < size; i++ ){
-            if( map[i] == true ){
+            if( map[i] == 1 ){
                 j += 1;
             }
         }

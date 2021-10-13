@@ -4,3 +4,5 @@ results
 .vscode/*
 node_modules*
 *.pyc
+.idea
+package-lock.json

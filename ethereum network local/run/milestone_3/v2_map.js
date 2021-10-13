@@ -10,8 +10,7 @@ module.exports = async function(callback) {
             for( j = 0; j < 20; j++ ){
                 resultados.push( await run() )
             }
-            console.log("execução de numero: " + i )
-            write( "../results/milestone_3/crude/map/" + i + ".dat" , resultados );
+            write( "../results/milestone_3/crude/v2_map/" + i + ".dat" , resultados );
         }
     }catch (error) {
         console.log(error)
@@ -46,6 +45,7 @@ async function run(){
 }
 
 async function write( path , json_result ){
+    console.log("execução " + path )
     const fs = require('fs')
 
     fs.writeFile( path, JSON.stringify(json_result, null , 2) , (err) => {
@@ -54,23 +54,18 @@ async function write( path , json_result ){
 }
 
 async function inserirElemento(){
-    var flag = Math.random() > 0.5 ? true : false 
-    await _deploy_milestone_3_Map.inserirElemento(flag )
-    return flag
+    var flag = Math.random() > 0.5 ? 1 : 2 
+    return await _deploy_milestone_3_Map.inserirElemento(flag )
 }
 
 async function contarElemento(){
-    var result;
-    await _deploy_milestone_3_Map.contaElemento()
-    return null
+    return await _deploy_milestone_3_Map.contaElemento()
 }
 
 async function percorre(){
-    await _deploy_milestone_3_Map.percorre()
-    return null
+    return await _deploy_milestone_3_Map.percorre()
 }
 
 async function percorreConta(){
-    await _deploy_milestone_3_Map.percorreConta()
-    return null
+    return await _deploy_milestone_3_Map.percorreConta()
 }

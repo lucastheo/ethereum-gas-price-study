@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 pool = multiprocessing.dummy.Pool(24)
 
 def carrega_lista_domain(path,quantidade):
-    estagio_ordem = ['estagio_inserir_elemento' , 'estagio_contar_elemento' , 'estagio_percorre' , 'estagio_percorre_conta' , 'estagio_final']
+    estagio_ordem = ['estagio_inserir_elemento' , 'estagio_conta_elemento' , 'estagio_percorre' , 'estagio_percorre_conta' , 'estagio_final']
     def carregar_arquivos():
         lista_dto_arquivo = list()
         for i in range(quantidade):
@@ -24,8 +24,8 @@ def carrega_lista_domain(path,quantidade):
         domain['estagio_inserir_elemento']['eth'] = int(dto_arquivo['estagio_1_eth'])
         domain['estagio_inserir_elemento']['resultado'] = dto_arquivo['estagio_1_resultado']
 
-        domain['estagio_contar_elemento']['eth'] = int(dto_arquivo['estagio_2_eth'])
-        domain['estagio_contar_elemento']['resultado'] = dto_arquivo['estagio_2_resultado']
+        domain['estagio_conta_elemento']['eth'] = int(dto_arquivo['estagio_2_eth'])
+        domain['estagio_conta_elemento']['resultado'] = dto_arquivo['estagio_2_resultado']
 
         domain['estagio_percorre']['eth'] = int(dto_arquivo['estagio_3_eth'])
         domain['estagio_percorre']['resultado'] = dto_arquivo['estagio_3_resultado']
@@ -74,7 +74,7 @@ def calcula_gasto_eth( lista_domain ):
 
 # def captura_identificacao( lista_domain ):
 #     def captura_identificacao( domain ):
-#         domain['identificacao'] = domain['estagio_contar_elemento']['resultado']
+#         domain['identificacao'] = domain['estagio_conta_elemento']['resultado']
 #     pool.map( captura_identificacao , lista_domain)
 
 

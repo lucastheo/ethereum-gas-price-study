@@ -31,7 +31,7 @@ summarize_sum(domain_data, '../../results/milestone_3/generate/v2.2.map.geral-su
 categorize(domain_data,'../../results/milestone_3/generate/v2.map.subplot.geral.png')
 categorize_normalize(domain_data,'../../results/milestone_3/generate/v2.map.subplot-normalize.geral.png')
 
-for filter in {'inserirElemento','contarElemento','percorre','percorreConta'}:
+for filter in {'inserirElemento','contaElemento','percorre','percorreConta'}:
     
     filter_data_inserir_elemento = Filter.domain_filter(domain_data, {filter})
     summarize(filter_data_inserir_elemento,f'../../results/milestone_3/generate/v2.map.{filter}.png', filter)

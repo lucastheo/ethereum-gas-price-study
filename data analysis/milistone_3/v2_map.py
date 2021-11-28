@@ -13,12 +13,12 @@ def summarize_sum( domain_data , path):
 def categorize(domain_data,path):
     categorize_data = Mapping.domain_categorize(domain_data)
     value_dict_list = Categorize.get_dataset_categorize(categorize_data)
-    Plot.graph_subplot(value_dict_list,path, 'Consumo de gas por categoria' ,'Tamanho do map' , 'Gas utilizado')
+    Plot.graph_subplot(value_dict_list,path, 'Consumo de gas por método' ,'Tamanho do map' , 'Gas utilizado')
 
 def categorize_normalize(domain_data,path):
     categorize_data = Mapping.domain_categorize(domain_data)
     value_normalize_dict_list = Categorize.get_dataset_categorize_normalize(categorize_data)
-    Plot.graph_subplot(value_normalize_dict_list,path, 'Consumo de gas por categoria normalizado por ciclo' ,'Tamanho do map' , 'Gas utilizado')
+    Plot.graph_subplot(value_normalize_dict_list,path, 'Consumo de gas por método normalizado por ciclo' ,'Tamanho do map' , 'Gas utilizado')
 
 load_crude_data = LoadCrudeData('../../results/milestone_3/crude/v2_map' , 20 )
 crude_data = load_crude_data.get()

@@ -125,20 +125,20 @@ class Plot:
         plt.clf()
         fig,ax = plt.subplots()
         ax.plot(list_value)
-        ax.set_xlabel(xlabel)
-        ax.set_ylabel(ylabel)
-        #ax.set_title(title,fontsize=10)
+        ax.set_xlabel(xlabel,fontsize=15)
+        ax.set_ylabel(ylabel,fontsize=15)
+        #ax.set_title(title,fontsize=11)
         plt.savefig(path)
         print("Grafico gerado:", path)
 
     @staticmethod
-    def graph_subplot(dataset_categorize , path , title , xlabel , ylabel):
+    def graph_subplot(dataset_categorize , path , title , xlabel , ylabel , legend_local):
         fig, ax = plt.subplots()
-        ax.set_xlabel(xlabel)
-        ax.set_ylabel(ylabel)
-        ax.set_title(title)
+        ax.set_xlabel(xlabel,fontsize=15)
+        ax.set_ylabel(ylabel,fontsize=15)
+        #ax.set_title(title,fontsize=11)
         ax.stackplot(list(range(len(dataset_categorize))), dataset_categorize.values(),labels=dataset_categorize.keys())  
-        #ax.legend(loc='upper left')
+        ax.legend(loc=legend_local, fontsize=12)
         plt.savefig(path)
         print("Grafico gerado:",path)
 

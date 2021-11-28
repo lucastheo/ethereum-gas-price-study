@@ -180,3 +180,22 @@ class Mapping:
 
             list_cyclo_categorize.append(list_categorize)
         return list_cyclo_categorize
+
+    @staticmethod
+    def domain_categorize_sum(list_domain_cyclos:list):
+        list_cyclo_categorize = list()
+
+        gas_used_sum = dict()
+        for i , list_domain_execution in enumerate(list_domain_cyclos):
+            list_categorize = list()
+            
+            for domain_execution in list_domain_execution:
+                if domain_execution.function_name not in gas_used_sum.keys():
+                    gas_used_sum[domain_execution.function_name] = domain_execution.gas_used
+
+                else:
+                    gas_used_sum[domain_execution.function_name] += domain_execution.gas_used
+                list_categorize.append(Categorize.DataCategorize(i,gas_used_sum[domain_execution.function_name],domain_execution.function_name))
+
+            list_cyclo_categorize.append(list_categorize)
+        return list_cyclo_categorize

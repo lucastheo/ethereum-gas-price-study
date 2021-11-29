@@ -199,3 +199,52 @@ class Mapping:
 
             list_cyclo_categorize.append(list_categorize)
         return list_cyclo_categorize
+    
+    '''
+        Utilizado para gerar a estrutura para os dados onde são categorizados
+        por método com a limitação de tamanho (max_size).
+
+        list_domain_cyclos: list de DomainExecution
+        max_size: tamanho máximo de elemento que vão ser tratados
+    '''
+    @staticmethod
+    def domain_categorize_limite_size(list_domain_cyclos:list, max_size: int ):
+        list_cyclo_categorize = list()
+
+        for i , list_domain_execution in enumerate(list_domain_cyclos):
+            if i > max_size:
+                break
+            list_categorize = list()
+            for domain_execution in list_domain_execution:
+                list_categorize.append(Categorize.DataCategorize(i,domain_execution.gas_used,domain_execution.function_name))
+
+            list_cyclo_categorize.append(list_categorize)
+        return list_cyclo_categorize
+
+    '''
+        Utilizado para gerar a estrutura para os dados sumarizados onde são 
+        categorizados por método com a limitação de tamanho (max_size).
+
+        list_domain_cyclos: list de DomainExecution
+        max_size: tamanho máximo de elemento que vão ser tratados
+    '''
+    @staticmethod
+    def domain_categorize_sum_limite_size(list_domain_cyclos: list , max_size: int ):
+        list_cyclo_categorize = list()
+
+        gas_used_sum = dict()
+        for i , list_domain_execution in enumerate(list_domain_cyclos):
+            if i > max_size:
+                break
+            list_categorize = list()
+            
+            for domain_execution in list_domain_execution:
+                if domain_execution.function_name not in gas_used_sum.keys():
+                    gas_used_sum[domain_execution.function_name] = domain_execution.gas_used
+
+                else:
+                    gas_used_sum[domain_execution.function_name] += domain_execution.gas_used
+                list_categorize.append(Categorize.DataCategorize(i,gas_used_sum[domain_execution.function_name],domain_execution.function_name))
+
+            list_cyclo_categorize.append(list_categorize)
+        return list_cyclo_categorize

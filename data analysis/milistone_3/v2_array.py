@@ -25,6 +25,45 @@ def categorize_normalize(domain_data,path):
     value_normalize_dict_list = Categorize.get_dataset_categorize_normalize(categorize_data)
     Plot.graph_subplot(value_normalize_dict_list,path, 'Consumo de gas por método normalizado por ciclo' ,'Tamanho do array' , 'Gas utilizado', 'upper left')
 
+'''
+    Realiza a orquestração das chamadas de funções para gerar a vizalização
+    categorizada dos dados limitado ao max_size.
+
+    domain_data: list de DomainExecution
+    path: caminho do arquivo
+    max_size: tamanho que vai ser tratados os dados
+'''
+def categorize_limit_size(domain_data: list,path: str, max_size: int ):
+    categorize_data = Mapping.domain_categorize_limite_size( domain_data, max_size )
+    value_dict_list = Categorize.get_dataset_categorize( categorize_data )
+    Plot.graph_subplot( value_dict_list,path , 'Consumo de gas por método' , 'Tamanho do array' , 'Gas utilizado', 'upper left')
+
+'''
+    Realiza a orquestração das chamadas de funções para gerar a vizalização
+    sumarizada e categorizada dos dados limitado ao max_size.
+
+    domain_data: list de DomainExecution
+    path: caminho do arquivo
+    max_size: tamanho que vai ser tratados os dados
+'''
+def categorize_sum_limit_size(domain_data,path, max_size: int ):
+    categorize_data = Mapping.domain_categorize_sum_limite_size( domain_data , max_size )
+    value_dict_list = Categorize.get_dataset_categorize( categorize_data )
+    Plot.graph_subplot( value_dict_list,path, 'Consumo de gas por método' ,'Tamanho do array' , 'Gas utilizado', 'upper left')
+
+'''
+    Realiza a orquestração das chamadas de funções para gerar a vizalização
+    nomalizada e categorizada dos dados limitado ao max_size.
+
+    domain_data: list de DomainExecution
+    path: caminho do arquivo
+    max_size: tamanho que vai ser tratados os dados
+'''
+def categorize_normalize_limit_size(domain_data,path , max_size: int ):
+    categorize_data = Mapping.domain_categorize_limite_size( domain_data, max_size )
+    value_normalize_dict_list = Categorize.get_dataset_categorize_normalize( categorize_data )
+    Plot.graph_subplot( value_normalize_dict_list , path, 'Consumo de gas por método normalizado por ciclo' ,'Tamanho do array' , 'Gas utilizado', 'upper left' )
+
 load_crude_data = LoadCrudeData('../../results/milestone_3/crude/v2_array' , 123 )
 crude_data = load_crude_data.get()
 
@@ -36,6 +75,10 @@ summarize_sum(domain_data, '../../results/milestone_3/generate/v2.2.array.geral-
 categorize(domain_data,'../../results/milestone_3/generate/v2.2.array.subplot.geral.png')
 categorize_sum(domain_data,'../../results/milestone_3/generate/v2.2.array.subplot-sum.geral.png')
 categorize_normalize(domain_data,'../../results/milestone_3/generate/v2.2.array.subplot-normalize.geral.png')
+
+categorize_limit_size(domain_data,'../../results/milestone_3/generate/v2.2.array.subplot.geral-50.png' , 50 )
+categorize_sum_limit_size(domain_data,'../../results/milestone_3/generate/v2.2.array.subplot-sum.geral-50.png', 50 )
+categorize_normalize_limit_size(domain_data,'../../results/milestone_3/generate/v2.2.array.subplot-normalize.geral-50.png', 50 )
 
 for filter in {'inserirElemento','contaElemento','percorre','percorreConta'}:
     
